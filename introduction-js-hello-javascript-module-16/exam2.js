@@ -1,0 +1,10 @@
+var mathematices = 75.25;
+var biology = 65;
+var chemstry = 80;
+var physics = 35.45;
+var bangla = 99.5;
+var gpaSum = mathematices + biology + chemstry + physics + bangla;
+var gpaResult = gpaSum / 5;
+gpaResult = gpaResult.toFixed(2);
+gpaResult = parseFloat(gpaResult);
+console.log(gpaResult);

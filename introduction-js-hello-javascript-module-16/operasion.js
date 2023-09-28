@@ -1,0 +1,20 @@
+// var onion = 20;
+// var quantiy = 10;
+// var totalPrice = onion * quantiy;
+// var priceDeferance = onion * banana;
+// console.log(totalPrice);
+// console.log(priceDeferance);
+// console.log(onion);
+// console.log(banana);
+// console.log(onion + banana);
+// console.log(banana - onion);
+// console.log(onion * banana);
+// console.log(onion / banana);
+// console.log(banana / onion);
+// var totalcost = onion / banana;
+// console.log(totalcost);
+
+var money = 100;
+var player = 10;
+var eachPlayer = money / player;
+console.log(eachPlayer);

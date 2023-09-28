@@ -1,0 +1,14 @@
+// 1 * 2 * 3 * 4 * 5 * 6 * 7
+// 3! = 3 * 2 * 1 = 6
+// 4! = 4 * 3 * 2 * 1 = 24
+// 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040
+
+function factorial(number) {
+  let result = 1;
+  for (let i = 1; i <= number; i++) {
+    result = result * i;
+  }
+  return result;
+}
+const result = factorial(9);
+console.log(result);
